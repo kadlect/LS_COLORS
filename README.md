@@ -4,6 +4,6 @@ Monokai colors for LS_COLORS environment variable. Directory colors are left int
 
 Insert
 
-	eval $( dircolors -b $HOME/.scripts/data/LS_COLORS_MONOKAI)
+	eval $( dircolors -b $LS_COLORS)
 
-to your **$HOME/*.bashrc*** to load it into the environment variable.
+(where **$LS_COLORS** is path to *.LS_COLORS* file) to your **$HOME/*.bashrc*** to load it into the environment variable.
