@@ -6,4 +6,4 @@ Insert
 
 	eval $( dircolors -b $LS_COLORS)
 
-(where **$LS_COLORS** is path to *.LS_COLORS* file) to your **$HOME/*.bashrc*** to load it into the environment variable.
+(where **$LS_COLORS** is path to *.LS_COLORS* file) to your ***$HOME/.bashrc*** to load it into the environment variable.
