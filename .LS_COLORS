@@ -1,4 +1,3 @@
-
 # Dark 256 color monokai theme for the color GNU ls utility.
 # Used and tested with dircolors (GNU coreutils) 8.5
 #
@@ -115,7 +114,8 @@ TERM xterm-debian
 NORMAL 00;38;5;244 # no color code at all
 #FILE 00 # regular file: use no color at all
 RESET 0 # reset to "normal" color
-DIR 01;38;5;197# directory 01;34
+# DIR 01;38;5;197 
+DIR 01;34 # directory
 LINK target 01;38;5;185 # symbolic link. (If you set this to 'target' instead of a
  # numerical value, the color is as for the file pointed to.)
 ORPHAN 05;38;5;185 # symlink to nonexistent file, or non-stat'able file
@@ -128,9 +128,13 @@ DOOR 48;5;99;38;5;15;01 # door
 SETUID 48;5;123;38;5;74 # file that is setuid (u+s)
 SETGID 48;5;149;38;5;35 # file that is setgid (g+s)
 CAPABILITY 30;41 # file with capability
-STICKY_OTHER_WRITABLE 48;5;197;38;5;204 # dir that is sticky and other-writable (+t,o+w)
-OTHER_WRITABLE 48;5;204;38;5;197 # dir that is other-writable (o+w) and not sticky
-STICKY 48;5;246;38;5;185 # dir with the sticky bit set (+t) and not other-writable
+STICKY_OTHER_WRITABLE 30;42 # dir that is sticky and other-writable (+t,o+w)
+OTHER_WRITABLE 34;42 # dir that is other-writable (o+w) and not sticky
+STICKY 37;44 # dir with the sticky bit set (+t) and not other-writable
+
+# STICKY_OTHER_WRITABLE 48;5;197;38;5;204 # dir that is sticky and other-writable (+t,o+w)
+# OTHER_WRITABLE 48;5;204;38;5;197 # dir that is other-writable (o+w) and not sticky
+# STICKY 48;5;246;38;5;185 # dir with the sticky bit set (+t) and not other-writable
 # This is for files with execute permission:
 EXEC 00;38;5;197
 
@@ -649,3 +653,4 @@ EXEC 00;38;5;197
 .st 38;5;240;1
 #}}}
 # vim: set ft=dircolors fdm=marker et sw=2:
+
