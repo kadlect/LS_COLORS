@@ -6,7 +6,7 @@
 #
 # More Information at
 # https://github.com/seebi/dircolors-solarized
-# 
+#
 # To install and use this file, put something like this is your shell resource
 # file:
 #
@@ -114,9 +114,9 @@ TERM xterm-debian
 NORMAL 00;38;5;244 # no color code at all
 #FILE 00 # regular file: use no color at all
 RESET 0 # reset to "normal" color
-# DIR 01;38;5;197 
+# DIR 01;38;5;197
 DIR 01;34 # directory
-LINK target 01;38;5;185 # symbolic link. (If you set this to 'target' instead of a
+LINK 01;38;5;185 # symbolic link. (If you set this to 'target' instead of a
  # numerical value, the color is as for the file pointed to.)
 ORPHAN 05;38;5;185 # symlink to nonexistent file, or non-stat'able file
 MULTIHARDLINK 00 # regular file with more than one link
@@ -653,4 +653,3 @@ EXEC 00;38;5;197
 .st 38;5;240;1
 #}}}
 # vim: set ft=dircolors fdm=marker et sw=2:
-
